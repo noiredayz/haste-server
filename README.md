@@ -1,15 +1,13 @@
 # DISCLAIMER
 
-This is a continued version of hastebin server with extended development, developed alone by zneix.  
-Original developer abandoned this amazing project and due to pile of unmerged Pull Requests and several security issues with outdated dependencies I decided to rewrite whole project in JavaScript ES6.  
+This is a continued version of hastebin server with extended development, originally continued by zneix.  
 
 **This version is heavily changed, meaning there will be breaking changes in your config if you were running outdated upstream version.**
 
 # Haste
 
-Haste is an open-source pastebin software written in Node.JS, which is easily installable in any network.  
+Haste is an [free software](https://www.gnu.org/philosophy/free-sw.en.html) pastebin-like software written in Node.JS, which is easily installable in any network.  
 It can be backed by either redis or filesystem and has a very easy adapter interface for other storage systems.  
-A publicly available version can be found at [haste.zneix.eu](https://haste.zneix.eu)
 
 Major design objectives:
 
@@ -17,7 +15,7 @@ Major design objectives:
 * Be really simple
 * Be easy to set up and use
 
-I also rewrote Command Line utility [haste-client](https://github.com/zneix/haste-client), which can do things like:
+Check out the command line client [haste-client](https://github.com/zneix/haste-client), which can do things like:
 
 `cat file | haste`
 
@@ -26,10 +24,12 @@ it outputs URL to a paste containing contents of `file`. Check [repo](https://gi
 
 # Installation
 
-Full installation and config instructions can be found in [`docs` directory](https://github.com/zneix/haste-server/tree/master/docs).
+Full installation and config instructions can be found in **docs** directory
 
 
 ## Authors
+
+This fork is maintained by noiredayz.
 
 Project continued by zneix <zzneix@gmail.com>
 
