@@ -74,7 +74,7 @@ const utils = new HasteUtils();
 
 	//rate limit all requests
 	if (config.rateLimits){
-		const Limiter = rateLimiter.default(config.rateLimits);
+		const Limiter = rateLimiter(config.rateLimits);
 		app.use(Limiter);
 	}
 
