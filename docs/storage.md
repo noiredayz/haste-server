@@ -47,6 +47,9 @@ Not rewritten yet, to be filled in
 
 ## MongoDB
 
+**The mongodb connector currently does not work, needs to be updated to client 4.x
+and needs testing.**
+
 Stores documents in a specified database in a collection named `entries`.  
 Expiration property in config can be changed to a value in seconds after which entries will not be served.
 
