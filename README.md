@@ -1,6 +1,6 @@
-# DISCLAIMER
+This is a continued version of hastebin server.
 
-This is a continued version of hastebin server with extended development, originally continued by zneix.  
+Originally continued by [zneix](https://github.com/zneix) with extended development, currently maintained by me btw.
 
 **This version is heavily changed, meaning there will be breaking changes in your config if you were running outdated upstream version.**
 
