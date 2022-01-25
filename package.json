@@ -1,17 +1,18 @@
 {
 	"name": "haste",
-	"version": "0.2.5",
-	"description": "Private Pastebin Server - continued by zneix",
+	"version": "0.2.7",
+	"description": "Private Pastebin Server continued",
 	"keywords": [
 		"paste",
 		"pastebin",
 		"haste",
-		"hastebin"
+		"hastebin",
+		"self-hosted",
+		"dank"
 	],
 	"author": {
-		"name": "John Crepezzi",
-		"email": "john.crepezzi@gmail.com",
-		"url": "http://seejohncode.com/"
+		"name": "Noiredayz",
+		"email": "noiredayz@protonmail.com"
 	},
 	"main": "server.js",
 	"dependencies": {

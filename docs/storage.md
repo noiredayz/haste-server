@@ -47,8 +47,8 @@ Not rewritten yet, to be filled in
 
 ## MongoDB
 
-**The mongodb connector currently does not work, needs to be updated to client 4.x
-and needs testing.**
+**The MongoDB connector was modified to work with 4.x but was not througly tested. Werks on my machine TM, if you
+encounter any shite please fill a bug report.**
 
 Stores documents in a specified database in a collection named `entries`.  
 Expiration property in config can be changed to a value in seconds after which entries will not be served.
@@ -57,7 +57,10 @@ Optimal default config:
 > **NOTE:** Depending on how your MongoDB server is configured, options as connectionUri may vary.  
 If server has no authentication, you can omit the `auth` object.  
 
-Check [documentation](https://mongodb.github.io/node-mongodb-native/3.5/api/MongoClient.html) for more detailed explanation about available `clientOptions` properties.
+Check [documentation](https://mongodb.github.io/node-mongodb-native/4.3/classes/MongoClient.html) for more detailed explanation about available `clientOptions` properties.
+
+**Предупреждение! If upgrading from client 3.x (previous one supplied) please note that some options have changed or removed. Adjust your existing settings accordingly.**
+
 
 ```json
 {
@@ -69,11 +72,10 @@ Check [documentation](https://mongodb.github.io/node-mongodb-native/3.5/api/Mong
 		"useNewUrlParser": true,
 		"keepAlive": true,
 		"keepAliveInitialDelay": 60000,
-		"poolSize": 30,
 		"socketTimeoutMS": 360000,
 		"connectTimeoutMS": 360000,
 		"auth": {
-				"user": "username",
+				"username": "username",
 				"password": "password"
 		},
 		"authSource": "admin"
