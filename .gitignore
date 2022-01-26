@@ -3,6 +3,7 @@ node_modules
 data
 data-test
 config.js
+extra-modules/*
 
 *.swp
 *.swo
