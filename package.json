@@ -26,7 +26,7 @@
 		"mongodb": "^4.2.2",
 		"pg": "^8.7.1",
 		"st": "^3.0.0",
-		"winston": "^3.4.0"
+		"winston": "^3.5.0"
 	},
 	"devDependencies": {
 		"eslint": "^8.7.0",
