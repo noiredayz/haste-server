@@ -23,7 +23,7 @@
 		"express": "^4.17.1",
 		"express-rate-limit": "^6.2.1",
 		"ioredis": "^4.28.5",
-		"mongodb": "^4.4.0",
+		"mongodb": "^4.4.1",
 		"pg": "^8.7.3",
 		"st": "^3.0.0",
 		"winston": "^3.6.0"
