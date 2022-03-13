@@ -30,7 +30,7 @@
 	},
 	"devDependencies": {
 		"eslint": "^8.11.0",
-		"mocha": "^9.2.0"
+		"mocha": "^9.2.2"
 	},
 	"scripts": {
 		"build": "npm install && npx babel --plugins minify-mangle-names --no-comments --minified static/application.js --out-file static/application.min.js",
