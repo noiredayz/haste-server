@@ -6,7 +6,7 @@ Originally continued by [zneix](https://github.com/zneix) with extended developm
 
 # Haste
 
-Haste is an [free software](https://www.gnu.org/philosophy/free-sw.en.html) pastebin-like software written in Node.JS, which is easily installable in any network.  
+Haste is a [free software](https://www.gnu.org/philosophy/free-sw.en.html) pastebin-like software written in Node.JS, which is easily installable in any network.  
 It can be backed by either redis or filesystem and has a very easy adapter interface for other storage systems.  
 
 Major design objectives:

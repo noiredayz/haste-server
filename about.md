@@ -35,25 +35,24 @@ right now.
 
 ## Duration
 
-Pastes will not be removed, however I preseve all rights to make any exceptions.  
-Contact me directly with any issues about documents uploaded at `zzneix@gmail.com`
+The operator of each hastebin instance decides how long they wish to store pastes. 
+The default is to keep them indefinitely.
 
 ## Privacy
 
-While the contents of haste.zneix.eu are not crawled by any search robot that 
-obeys "robots.txt", there should be no great expectation of privacy.  
-Post things at your own risk. Not responsible for any removed pastes.
+Post things at your own risk. Not responsible for any removed pastes. Contact the operator
+of the server in question about privacy concerns, terms of use, acceptable use, GDPR etc.
 
-## Open Source
+## Free Software
 
-Haste can easily be installed behind your network, and it's all open source!
+Haste can easily be installed behind your network, and it's all free (as in freedom)!
 
 * [haste-client](https://github.com/seejohnrun/haste-client)
-* [haste-server](https://github.com/zneix/haste-server)
+* [haste-server](https://github.com/noiredayz/haste-server)
 
 ## Authors
 
+This fork is maintained by Noiredayz
 Project continued by zneix <zzneix@gmail.com>
-
 Original Code by John Crepezzi <john.crepezzi@gmail.com>
 Key Design by Brian Dawson <bridawson@gmail.com>
