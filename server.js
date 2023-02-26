@@ -18,6 +18,13 @@ const utils = new HasteUtils();
 			process.exit(1);
 		});
 	}
+	//create about.md from temple if it doesnt exist
+	if (!fs.existsSync('./about.md')){
+		await fs.promises.copyFile('./about.md.example', './about.md').catch(err => {
+			winston.error('failed to copy about.md', {error: err});
+			winston.error('This is something really serious, but your hastebins about button will lead to a 404');
+		});
+	}
 	//load config and set some defaults
 	const config = require('./config');
 

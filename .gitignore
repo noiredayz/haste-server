@@ -5,6 +5,7 @@ data-test
 config.js
 config.js.*
 extra-modules/*
+about.md
 
 *.swp
 *.swo
