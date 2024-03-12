@@ -1,3 +1,4 @@
+//example config, you can copy it manually to config.js or the server with do it auto on first start
 module.exports = {
 	//address and port to which server will bind, host can also be a hostname
 	"host": "127.0.0.1",
